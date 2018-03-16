@@ -1,4 +1,6 @@
-FROM kibana:5.3.1
+FROM kibana:5.4.0
+LABEL maintainer "andresgarcia.kaox@gmail.com"
+
 #COPY config/kibana.yml /usr/share/kibana/config/kibana.yml
 
 # Add your kibana plugins setup here

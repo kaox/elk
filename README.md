@@ -5,26 +5,26 @@ Stack de contenedores ELK (Elasticsearch, logstash y kibana) para monitorear log
 
 -------
 
-### <i class="icon-upload"></i> Levantar contenedores
+#### Levantar contenedores
 
 
 ```
 $ docker-compose up -d
 ```
 
-### <i class="icon-upload"></i> Detiene contenedores
+#### Detiene contenedores
 
 ```
 $ docker-compose stop
 ```
 
-### <i class="icon-upload"></i> Ejecuta contenedores
+#### Ejecuta contenedores
 
 ```
 $ docker-compose start
 ```
 
-### <i class="icon-upload"></i> Detiene y elimina contenedores
+#### Detiene y elimina contenedores
 
 ```
 $ docker-compose down
